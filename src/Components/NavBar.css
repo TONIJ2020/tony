@@ -1,0 +1,444 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.main-navigation-div {
+position: absolute;
+width: 1440px;
+height: 144px;
+left: 0px;
+top: 0px;
+background-color: #ffffff;
+}
+
+.genesys-logo {
+position: absolute;
+left: 3.47%;
+right: 83.86%;
+top: 36.11%;
+bottom: 34.72%;
+}
+
+.main-menu-ul {
+list-style: none;
+}
+
+.main-menu-ul a {
+font: normal 600 15px/110.19% Nunito;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+text-decoration: none;
+color: #273043;
+}
+
+.main-menu-ul a:hover,
+.main-menu-ul a:active {
+color: #F5772F;
+opacity: 0.9;
+}
+
+.learnable-menu {
+position: absolute;
+left: 20.83%;
+right: 72.36%;
+top: 44.44%;
+bottom: 43.75%;
+text-align: center;
+}
+
+.agora-menu {
+position: absolute;
+left: 29.72%;
+right: 66.11%;
+top: 44.44%;
+bottom: 43.75%;
+}
+
+.startzone-menu {
+position: absolute;
+left: 35.97%;
+right: 57.22%;
+top: 44.44%;
+bottom: 43.75%;
+}
+
+.about-menu {
+position: absolute;
+left: 44.86%;
+right: 51.11%;
+top: 44.44%;
+bottom: 43.75%;
+}
+
+.contact-menu {
+position: absolute;
+left: 50.94%;
+right: 43.64%;
+top: 44.44%;
+bottom: 43.75%;
+}
+
+.devstudio-text {
+position: absolute;
+left: 77.85%;
+right: 12.54%;
+top: 43.06%;
+bottom: 41.67%;
+font: normal normal 13px/21px Nunito;
+text-decoration: none;
+letter-spacing: 0.4px;
+color: #273043;
+}
+
+.main-navigation-bar-button {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 0px 0px 12px;
+position: absolute;
+width: 109px;
+height: 36px;
+left: 1281px;
+top: 56px;
+border: 1px solid #17255A;
+box-sizing: border-box;
+border-radius: 4px;
+background-color: #ffffff;
+cursor: pointer;
+}
+
+.main-navigation-bar-button-text {
+position: static;
+height: 16px;
+left: 12px;
+right: 12px;
+top: calc(50% - 16px/2);
+font: normal 500 14px/16px Roboto;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+color: #17255A;
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 10px 0px;
+padding-bottom: 8px;
+cursor: pointer;
+}
+
+i {
+  display: none;
+  visibility: hidden;
+  float: right;
+  margin-right: 6%;
+}
+
+/* Styling for the SecNav */
+.second-menu-navigation-div {
+position: absolute;
+width: 1440px;
+height: 48px;
+left: 0px;
+top: 144px;
+background-color: #17255A;
+}
+
+.second-menu-navigation-bar {
+position: absolute;
+left: 20.83%;
+right: 27.08%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+.second-menu-ul {
+list-style: none;
+}
+
+.second-menu-ul a {
+font: normal 600 15px/110.19% Nunito;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 1.25px;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #EEEEEE;
+}
+
+.second-menu-ul a:hover,
+.second-menu-ul a:active {
+color: #EAC435;
+}
+
+.second-menu-li > .home-menu {
+position: absolute;
+left: 0%;
+right: 75.76%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+.second-menu-li > .software-developers-menu {
+position: absolute;
+left: 10.53%;
+right: 59.24%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+.second-menu-li > .product-designers-menu {
+position: absolute;
+width: 181px;
+left: 42.27%;
+right: 44.58%;
+top: 35.42%;
+bottom: 29.17%; 
+}
+
+.second-menu-li > .apply-menu {
+position: absolute;
+left: 70.4%;
+right: 38.82%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+.second-menu-li > .journal-menu {
+position: absolute;
+left: 81.47%;
+right: 31.46%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+.second-menu-li > .faq-menu {
+position: absolute;
+left: 95.6%;
+right: 27.08%;
+top: 35.42%;
+bottom: 29.17%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width:375px){
+.main-navigation-div {
+  position: absolute;
+  width: 375px;
+  height: 66px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+  }
+  
+  .genesys-logo {
+  position: absolute;
+  left: 4%;
+  top: 22.73%;
+  }
+  
+  .main-menu-ul {
+  list-style: none;
+  }
+  
+  .main-menu-ul a {
+  font: normal 600 15px/110.19% Nunito;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: #273043;
+  }
+  
+  .main-menu-ul a:hover,
+  .main-menu-ul a:active {
+  color: #F5772F;
+  }
+  
+  .learnable-menu {
+  position: absolute;
+  left: 65px;
+  top: 93px;
+  text-align: center;
+  }
+  
+  .agora-menu {
+  position: absolute;
+  left: 65px;
+  top: 153px;
+  }
+  
+  .startzone-menu {
+  position: absolute;
+  left: 65px;
+  top: 213px;
+  }
+  
+  .about-menu {
+  position: absolute;
+  left: 65px;
+  top: 273px;
+  }
+  
+  .contact-menu {
+  position: absolute;
+  left: 65px;
+  top: 333px;
+  }
+  
+  .devstudio-text {
+  position: absolute;
+  left: 65px;
+  top: 393px;
+  font: normal 600 15px/110.19% Nunito;
+  letter-spacing: 1.25px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: #273043;
+  }
+  
+  .main-navigation-bar-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0px 0px 12px;
+  position: absolute;
+  width: 109px;
+  height: 36px;
+  left: 1281px;
+  top: 56px;
+  border: 1px solid #17255A;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  display: none;
+  visibility: hidden;
+  }
+  
+  .main-navigation-bar-button-text {
+  position: static;
+  height: 16px;
+  left: 12px;
+  right: 12px;
+  top: calc(50% - 16px/2);
+  font: normal 500 14px/16px Roboto;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #17255A;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 10px 0px;
+  padding-bottom: 8px;
+  cursor: pointer;
+
+  display: none;
+  visibility: hidden;
+  }
+
+  i {
+    display: flex;
+    flex-direction: column;
+    visibility: visible;
+    float: right;
+    margin-right: 6%;
+  }
+  
+  /* Styling for the SecNav */
+  .second-menu-navigation-div {
+  position: absolute;
+  width: 1440px;
+  height: 48px;
+  left: 0px;
+  top: 144px;
+  background-color: #17255A;
+  }
+  
+  .second-menu-navigation-bar {
+  position: absolute;
+  left: 20.83%;
+  right: 27.08%;
+  top: 35.42%;
+  bottom: 29.17%;
+  }
+  
+  .second-menu-ul {
+  list-style: none;
+  }
+  
+  .second-menu-ul a {
+  font: normal 600 15px/110.19% Nunito;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #EEEEEE;
+}
+  
+.second-menu-ul a:hover,
+.second-menu-ul a:active {
+  color: #EAC435;
+}
+
+.second-menu-li > .home-menu {
+  position: absolute;
+  left: 0%;
+  right: 75.76%;
+  top: 35.42%;
+  bottom: 29.17%;
+}
+
+.second-menu-li > .software-developers-menu {
+  position: absolute;
+  left: 10.53%;
+  right: 59.24%;
+  top: 35.42%;
+  bottom: 29.17%;
+}
+
+.second-menu-li > .product-designers-menu {
+  position: absolute;
+  width: 181px;
+  left: 42.27%;
+  right: 44.58%;
+  top: 35.42%;
+  bottom: 29.17%; 
+}
+
+.second-menu-li > .apply-menu {
+  position: absolute;
+  left: 70.4%;
+  right: 38.82%;
+  top: 35.42%;
+  bottom: 29.17%;
+}
+
+.second-menu-li > .journal-menu {
+  position: absolute;
+  left: 81.47%;
+  right: 31.46%;
+  top: 35.42%;
+  bottom: 29.17%;
+}
+
+.second-menu-li > .faq-menu {
+  position: absolute;
+  left: 95.6%;
+  right: 27.08%;
+  top: 35.42%;
+  bottom: 29.17%;
+}
+}
+
+
+
+
