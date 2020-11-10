@@ -416,8 +416,20 @@ body {
     bottom: 29.17%;
     display: none;
   }
-}
+    
   
+  .toggleNav {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 20;
+    }
+}
   
   
   
