@@ -8,7 +8,7 @@ import Journal from './Components/Journal';
 import Faq from './Components/Faq';
 import ProductDesigner from './Components/ProductDesigner';
 import ApplyYourKnow from './Components/ApplyYourKnow';
-import MainNav from './Components/MainNav';
+import MainNav from './Components/Menu/MainNav';
 
 function App() {
   return (
