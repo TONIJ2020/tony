@@ -34,8 +34,8 @@ function NavMenu({open}) {
                     <li className="main-menu-li"><a className="about-menu" href="/">About</a></li>
                     <li className="main-menu-li"><a className="contact-menu" href="/">Contact</a></li>
 
-                    <li><a href="/" className="devstudio-text">build a product with</a></li>
-                    <li><a href="/"><button className="main-navigation-bar-button"></button><p className="main-navigation-bar-button-text">devstudio</p></a></li>
+                    <li><a href="/developers" className="devstudio-text">build a product with</a></li>
+                    <li><a href="/developers"><button className="main-navigation-bar-button"></button><p className="main-navigation-bar-button-text">devstudio</p></a></li>
                 </Ul>
             </nav>
     );
