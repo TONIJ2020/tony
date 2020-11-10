@@ -9,7 +9,7 @@ const Toggler = styled.div`
         height: 2rem;
         position: fixed;
         top: 15px;
-        right: 60px;
+        right: 15px;
         display: flex;
         justify-content: space-around;
         flex-flow: column nowrap;
