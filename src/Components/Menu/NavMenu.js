@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 import styled from 'styled-components';
 import './NavBar.css';
@@ -26,18 +27,18 @@ const Ul = styled.div`
 
 function NavMenu({open}) {
     return (
-            <nav className="main-navigation-bar">
-                <Ul open={open} className="main-menu-ul">
-                    <li className="main-menu-li"><a className="learnable-menu" href="/learnable">Learnable</a></li>
-                    <li className="main-menu-li"><a className="agora-menu" href="/">Agora</a></li>
-                    <li className="main-menu-li"><a className="startzone-menu" href="/">StartZone</a></li>
-                    <li className="main-menu-li"><a className="about-menu" href="/">About</a></li>
-                    <li className="main-menu-li"><a className="contact-menu" href="/">Contact</a></li>
+        <nav className="main-navigation-bar">
+            <Ul open={open} className="main-menu-ul">
+                <li className="main-menu-li"><a className="learnable-menu" href="/learnable">Learnable</a></li>
+                <li className="main-menu-li"><a className="agora-menu" href="/">Agora</a></li>
+                <li className="main-menu-li"><a className="startzone-menu" href="/">StartZone</a></li>
+                <li className="main-menu-li"><a className="about-menu" href="/">About</a></li>
+                <li className="main-menu-li"><a className="contact-menu" href="/">Contact</a></li>
 
-                    <li><a href="/developers" className="devstudio-text">build a product with</a></li>
-                    <li><a href="/developers"><button className="main-navigation-bar-button"></button><p className="main-navigation-bar-button-text">devstudio</p></a></li>
-                </Ul>
-            </nav>
+                <li><Link to="/developers" className="devstudio-text">build a product with</Link></li>
+                <li><Link to="/developers"><button className="main-navigation-bar-button"></button><p className="main-navigation-bar-button-text">devstudio</p></Link></li>
+            </Ul>
+        </nav>
     );
 }
 
