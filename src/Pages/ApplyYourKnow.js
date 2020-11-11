@@ -1,17 +1,17 @@
 import React from 'react';
-import MainNav from './MainNav';
-import SecNav from './SecNav';
-import apply from './Apply.png';
-import Knowledge from './Knowledge.png';
-import UpArrow from './Uparrow.png';
-import Footimage from './Footimage.png';
-import Facebook from './facebook.png';
-import Twitter from './twitter.png';
-import Instagram from './instagram.png';
-import LinkedIn from './linkedin.png';
-import Youtube from './youtube.png';
-import Vimeo from './vimeo.png';
-import Copyright from './copyright.png';
+import MainNav from '../Components/Menu/MainNav';
+import SecNav from '../Components/Menu/SecNav';
+import apply from '../Access/Apply.png';
+import Knowledge from '../Access//Knowledge.png';
+import UpArrow from '../Access//Uparrow.png';
+import Footimage from '../Access//Footimage.png';
+import Facebook from '../Access//facebook.png';
+import Twitter from '../Access//twitter.png';
+import Instagram from '../Access//instagram.png';
+import LinkedIn from '../Access//linkedin.png';
+import Youtube from '../Access//youtube.png';
+import Vimeo from '../Access//vimeo.png';
+import Copyright from '../Access//copyright.png';
 
 function ApplyYourKnow() {
     return (

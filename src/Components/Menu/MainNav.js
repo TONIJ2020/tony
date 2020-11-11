@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './Genesyslogo.png';
 import './NavBar.css';
-import NavToggler from './Menu/NavToggler';
+import NavToggler from './NavToggler';
 
 
 function MainNav() {
