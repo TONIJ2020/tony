@@ -1,6 +1,6 @@
 import React from 'react';
 import MainNav from '../Components/Menu/MainNav';
-import Redhand from '../Access/Redhand.png';
+import Redhand from '../Assets/Redhand.png';
 import startZone from '../Access/StartZone.png';
 import agora from '../Access/Agora.png';
 import Learn from '../Access/Learnable.png';
