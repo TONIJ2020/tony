@@ -1,17 +1,17 @@
 import React from 'react';
 import MainNav from '../Components/Menu/MainNav';
 import SecNav from '../Components/Menu/SecNav';
-import PeopleGreat from '../Access/PeopleGreat.png';
-import SoftDevImg1 from '../Access/SoftDevImg1.png';
-import UpArrow from '../Access/Uparrow.png';
-import Footimage from '../Access/Footimage.png';
-import Facebook from '../Access/facebook.png';
-import Twitter from '../Access/twitter.png';
-import Instagram from '../Access/instagram.png';
-import LinkedIn from '../Access/linkedin.png';
-import Youtube from '../Access/youtube.png';
-import Vimeo from '../Access/vimeo.png';
-import Copyright from '../Access/copyright.png';
+import PeopleGreat from '../Assets/PeopleGreat.png';
+import SoftDevImg1 from '../Assets/SoftDevImg1.png';
+import UpArrow from '../Assets/Uparrow.png';
+import Footimage from '../Assets/Footimage.png';
+import Facebook from '../Assets/facebook.png';
+import Twitter from '../Assets/twitter.png';
+import Instagram from '../Assets/instagram.png';
+import LinkedIn from '../Assets/linkedin.png';
+import Youtube from '../Assets/youtube.png';
+import Vimeo from '../Assets/vimeo.png';
+import Copyright from '../Assets/copyright.png';
 
 function SoftwareDevs() {
   return (
@@ -59,7 +59,7 @@ function SoftwareDevs() {
         </div>
     </div>
 
-    <footer>
+    {/* <footer>
         <div className="software-devs-mainFoot">
             <ul className="mainFootUl">
                 <li><a id="aa1" href="#build">Build Software</a></li>
@@ -92,7 +92,7 @@ function SoftwareDevs() {
 
             <p href="#privacystatement" className="Foottxt5">Privacy Statement</p>
         </div>
-    </footer>
+    </footer> */}
     </div>
   );
 }

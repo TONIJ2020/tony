@@ -2,44 +2,44 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import MainNav from '../Components/Menu/MainNav';
 import SecNav from '../Components/Menu/SecNav';
-import Fast from '../Access/Fast.png';
-import Magazine from '../Access/Magazine.png';
-import Wired from '../Access/Wired.png';
-import WebVision from '../Access/WebVision.png';
-import Interaction from '../Access/Interaction.png';
-import Journal from '../Access/Journal.png';
-import Journal1 from '../Access/Journal1.png';
-import Journal2 from '../Access/Journal2.png';
-import Journal3 from '../Access/Journal3.png';
-import Dropdown from '../Access/Dropdown.png';
-import faqLine from '../Access/faqLine.png';
-import ApplyData from '../Access/ApplyData.png';
-import learningDoesnt from '../Access/LearningDoesnt.png';
-import Nnamdi from '../Access/Nnamdi.png';
-import Ositadinma from '../Access/Ositadinma.png';
-import Idowu from '../Access/Idowu.png';
-import Ezra from '../Access/Ezra.png';
-import David from '../Access/David.png';
-import Emmanuel from '../Access/Emmanuel.png';
-import Fun from '../Access/Fun.png';
-import play from '../Access/Play.png';
-import culture from '../Access/Culture.png';
-import eligible from '../Access/Eligible.png';
-import learnExperience from '../Access/LearnExperience.png';
-import peopleGreat from '../Access/PeopleGreat.png';
-import ArrowDown from '../Access/ArrowDown.png';
-import UpArrow from '../Access/Uparrow.png';
-import hero from '../Access/Hero.png';
-import Footimage from '../Access/Footimage.png';
-import Facebook from '../Access/facebook.png';
-import Twitter from '../Access/twitter.png';
-import Instagram from '../Access/instagram.png';
-import LinkedIn from '../Access/linkedin.png';
-import Youtube from '../Access/youtube.png';
-import Vimeo from '../Access/vimeo.png';
-import Copyright from '../Access/copyright.png';
-import White from '../Access/white-side-arrow.png';
-import Blue from '../Access/blue-side-arrow.png';
+import Fast from '../Assets/Fast.png';
+import Magazine from '../Assets/Magazine.png';
+import Wired from '../Assets/Wired.png';
+import WebVision from '../Assets/WebVision.png';
+import Interaction from '../Assets/Interaction.png';
+import Journal from '../Assets/Journal.png';
+import Journal1 from '../Assets/Journal1.png';
+import Journal2 from '../Assets/Journal2.png';
+import Journal3 from '../Assets/Journal3.png';
+import Dropdown from '../Assets/Dropdown.png';
+import faqLine from '../Assets/faqLine.png';
+import ApplyData from '../Assets/ApplyData.png';
+import learningDoesnt from '../Assets/LearningDoesnt.png';
+import Nnamdi from '../Assets/Nnamdi.png';
+import Ositadinma from '../Assets/Ositadinma.png';
+import Idowu from '../Assets/Idowu.png';
+import Ezra from '../Assets/Ezra.png';
+import David from '../Assets/David.png';
+import Emmanuel from '../Assets/Emmanuel.png';
+import Fun from '../Assets/Fun.png';
+import play from '../Assets/Play.png';
+import culture from '../Assets/Culture.png';
+import eligible from '../Assets/Eligible.png';
+import learnExperience from '../Assets/LearnExperience.png';
+import peopleGreat from '../Assets/PeopleGreat.png';
+import ArrowDown from '../Assets/ArrowDown.png';
+import UpArrow from '../Assets/Uparrow.png';
+import hero from '../Assets/Hero.png';
+import Footimage from '../Assets/Footimage.png';
+import Facebook from '../Assets/facebook.png';
+import Twitter from '../Assets/twitter.png';
+import Instagram from '../Assets/instagram.png';
+import LinkedIn from '../Assets/linkedin.png';
+import Youtube from '../Assets/youtube.png';
+import Vimeo from '../Assets/vimeo.png';
+import Copyright from '../Assets/copyright.png';
+import White from '../Assets/white-side-arrow.png';
+import Blue from '../Assets/blue-side-arrow.png';
 
 function Home() {
   return (
@@ -315,7 +315,7 @@ function Home() {
             </div>
         </div>
 
-        <footer>
+        {/* <footer>
           <div className="home-mainFoot">
               <ul className="mainFootUl">
                   <li><a id="aa1" href="#build">Build Software</a></li>
@@ -348,7 +348,7 @@ function Home() {
 
               <p href="#privacystatement" className="Foottxt5">Privacy Statement</p>
           </div>
-        </footer>
+        </footer> */}
       </div>
     </>
   );
