@@ -1,6 +1,6 @@
 import React from 'react';
-import MainNav from '../Components/Menu/MainNav';
-import SecNav from '../Components/Menu/SecNav';
+// import MainNav from '../Components/Menu/MainNav';
+// import SecNav from '../Components/Menu/SecNav';
 import PeopleGreat from '../Assets/PeopleGreat.png';
 import SoftDevImg1 from '../Assets/SoftDevImg1.png';
 import UpArrow from '../Assets/Uparrow.png';
@@ -16,10 +16,10 @@ import Copyright from '../Assets/copyright.png';
 function SoftwareDevs() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <MainNav />
         <SecNav /> 
-      </header>
+      </header> */}
 
       <main>
         <div className="main-software-developers-div">

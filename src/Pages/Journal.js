@@ -1,6 +1,6 @@
 import React from 'react';
-import MainNav from '../Components/Menu/MainNav';
-import SecNav from '../Components/Menu/SecNav';
+// import MainNav from '../Components/Menu/MainNav';
+// import SecNav from '../Components/Menu/SecNav';
 import Apply from '../Assets/Apply.png';
 import Author from '../Assets/Author.png';
 import journal from '../Assets/Journal.png';
@@ -21,10 +21,10 @@ import Copyright from '../Assets/copyright.png';
 function Journal() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <MainNav />
         <SecNav /> 
-      </header>
+      </header> */}
 
       <main>
       <div className="mainJournalDiv">

@@ -1,6 +1,6 @@
 import React from 'react';
-import MainNav from '../Components/Menu/MainNav';
-import SecNav from '../Components/Menu/SecNav';
+// import MainNav from '../Components/Menu/MainNav';
+// import SecNav from '../Components/Menu/SecNav';
 import ProdDesign from '../Assets/ProdDesign.png';
 import ProductDesign from '../Assets/ProductDesign.png';
 import UpArrow from '../Assets/Uparrow.png';
@@ -16,10 +16,10 @@ import UpArrow from '../Assets/Uparrow.png';
 function ProductDesigner() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <MainNav />
         <SecNav /> 
-      </header>
+      </header> */}
 
       <main>
         <div className="product-designers-div">

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import MainNav from '../Components/Menu/MainNav';
-import SecNav from '../Components/Menu/SecNav';
+// import MainNav from '../Components/Menu/MainNav';
+// import SecNav from '../Components/Menu/SecNav';
 import Fast from '../Assets/Fast.png';
 import Magazine from '../Assets/Magazine.png';
 import Wired from '../Assets/Wired.png';
@@ -45,10 +45,10 @@ function Home() {
   return (
     <>
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <MainNav />
           <SecNav /> 
-        </header>
+        </header> */}
 
         <main>
           <div className="learnable-notification-div">

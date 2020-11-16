@@ -1,6 +1,6 @@
 import React from 'react';
+import SecNav from '../Components/Menu/SecNav';
 import MainNav from './../Components/Menu/MainNav';
-import NavMenu from './../Components/Menu/NavMenu'
 import Footer from './../Components/Footer';
 
 
@@ -8,7 +8,7 @@ const Layouts = (props) => {
     return(
         <div>
             <MainNav />
-            <NavMenu />
+            <SecNav />
             {props.children}
             <Footer />
         </div>

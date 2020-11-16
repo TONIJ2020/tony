@@ -1,6 +1,6 @@
 import React from 'react';
-import MainNav from '../Components/Menu/MainNav';
-import SecNav from '../Components/Menu/SecNav';
+// import MainNav from '../Components/Menu/MainNav';
+// import SecNav from '../Components/Menu/SecNav';
 import Dropdown from '../Assets/Dropdown.png';
 import faqLine from '../Assets/faqLine.png';
 import FaqHand from '../Assets/FaqHand.png';
@@ -17,10 +17,10 @@ import Copyright from '../Assets/copyright.png';
 function FAQ() {
     return (
         <div className="App">
-            <header className="App-header">
+            {/* <header className="App-header">
                 <MainNav />
                 <SecNav /> 
-            </header>
+            </header> */}
 
             <main>
                 <div className="mainfaqDiv">
