@@ -2,7 +2,7 @@ import React from 'react';
 import AppRouter from './AppRoutes';
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
 // import LandingPage from './Components/LandingPage';
-// import './App.css';
+import './App.css';
 // import Home from './Pages/Home';
 // import SoftwareDevs from './Pages/SoftwareDevs';
 // import Journal from './Pages/Journal';
