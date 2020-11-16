@@ -4,14 +4,14 @@ import React from 'react';
 import apply from '../Assets/Apply.png';
 import Knowledge from '../Assets//Knowledge.png';
 import UpArrow from '../Assets//Uparrow.png';
-import Footimage from '../Assets//Footimage.png';
-import Facebook from '../Assets//facebook.png';
-import Twitter from '../Assets//twitter.png';
-import Instagram from '../Assets//instagram.png';
-import LinkedIn from '../Assets//linkedin.png';
-import Youtube from '../Assets//youtube.png';
-import Vimeo from '../Assets//vimeo.png';
-import Copyright from '../Assets//copyright.png';
+// import Footimage from '../Assets//Footimage.png';
+// import Facebook from '../Assets//facebook.png';
+// import Twitter from '../Assets//twitter.png';
+// import Instagram from '../Assets//instagram.png';
+// import LinkedIn from '../Assets//linkedin.png';
+// import Youtube from '../Assets//youtube.png';
+// import Vimeo from '../Assets//vimeo.png';
+// import Copyright from '../Assets//copyright.png';
 
 function ApplyYourKnow() {
     return (

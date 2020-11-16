@@ -30,14 +30,14 @@ import peopleGreat from '../Assets/PeopleGreat.png';
 import ArrowDown from '../Assets/ArrowDown.png';
 import UpArrow from '../Assets/Uparrow.png';
 import hero from '../Assets/Hero.png';
-import Footimage from '../Assets/Footimage.png';
-import Facebook from '../Assets/facebook.png';
-import Twitter from '../Assets/twitter.png';
-import Instagram from '../Assets/instagram.png';
-import LinkedIn from '../Assets/linkedin.png';
-import Youtube from '../Assets/youtube.png';
-import Vimeo from '../Assets/vimeo.png';
-import Copyright from '../Assets/copyright.png';
+// import Footimage from '../Assets/Footimage.png';
+// import Facebook from '../Assets/facebook.png';
+// import Twitter from '../Assets/twitter.png';
+// import Instagram from '../Assets/instagram.png';
+// import LinkedIn from '../Assets/linkedin.png';
+// import Youtube from '../Assets/youtube.png';
+// import Vimeo from '../Assets/vimeo.png';
+// import Copyright from '../Assets/copyright.png';
 import White from '../Assets/white-side-arrow.png';
 import Blue from '../Assets/blue-side-arrow.png';
 
@@ -53,7 +53,7 @@ function Home() {
         <main>
           <div className="learnable-notification-div">
             <h1 className="learnable-notification-heading">Coming soon: Learnable ‘20</h1>
-            <h2 className="learnable-notification-brochure-sub-heading">Learnable ‘20 Brochure</h2>
+            <a href="#brochure" className="learnable-notification-brochure-sub-heading">Learnable ‘20 Brochure</a>
             <p className="learnable-notification-paragraph-text">We've started taking in applications for the next batch of learnable interns. Applications are on till the 21st of Febuary</p>
             <a href="#notification" className="notification-click-to-download-link">Click link to download...</a>
           </div>

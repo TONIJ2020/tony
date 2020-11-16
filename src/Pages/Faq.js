@@ -5,14 +5,14 @@ import Dropdown from '../Assets/Dropdown.png';
 import faqLine from '../Assets/faqLine.png';
 import FaqHand from '../Assets/FaqHand.png';
 import UpArrow from '../Assets/Uparrow.png';
-import Footimage from '../Assets/Footimage.png';
-import Facebook from '../Assets/facebook.png';
-import Twitter from '../Assets/twitter.png';
-import Instagram from '../Assets/instagram.png';
-import LinkedIn from '../Assets/linkedin.png';
-import Youtube from '../Assets/youtube.png';
-import Vimeo from '../Assets/vimeo.png';
-import Copyright from '../Assets/copyright.png';
+// import Footimage from '../Assets/Footimage.png';
+// import Facebook from '../Assets/facebook.png';
+// import Twitter from '../Assets/twitter.png';
+// import Instagram from '../Assets/instagram.png';
+// import LinkedIn from '../Assets/linkedin.png';
+// import Youtube from '../Assets/youtube.png';
+// import Vimeo from '../Assets/vimeo.png';
+// import Copyright from '../Assets/copyright.png';
 
 function FAQ() {
     return (

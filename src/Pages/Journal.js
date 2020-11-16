@@ -8,14 +8,14 @@ import Journal1 from '../Assets/Journal1.png';
 import Journal2 from '../Assets/Journal2.png';
 import Journal3 from '../Assets/Journal3.png';
 import UpArrow from '../Assets/Uparrow.png';
-import Footimage from '../Assets/Footimage.png';
-import Facebook from '../Assets/facebook.png';
-import Twitter from '../Assets/twitter.png';
-import Instagram from '../Assets/instagram.png';
-import LinkedIn from '../Assets/linkedin.png';
-import Youtube from '../Assets/youtube.png';
-import Vimeo from '../Assets/vimeo.png';
-import Copyright from '../Assets/copyright.png';
+// import Footimage from '../Assets/Footimage.png';
+// import Facebook from '../Assets/facebook.png';
+// import Twitter from '../Assets/twitter.png';
+// import Instagram from '../Assets/instagram.png';
+// import LinkedIn from '../Assets/linkedin.png';
+// import Youtube from '../Assets/youtube.png';
+// import Vimeo from '../Assets/vimeo.png';
+// import Copyright from '../Assets/copyright.png';
 
 
 function Journal() {
