@@ -1,13 +1,15 @@
 import React from 'react';
 
-// import Footimage from '../Assets/Footimage.png';
-// import Facebook from '../Assets/facebook.png';
-// import Twitter from '../Assets/twitter.png';
-// import Instagram from '../Assets/instagram.png';
-// import LinkedIn from '../Assets/linkedin.png';
-// import Youtube from '../Assets/youtube.png';
-// import Vimeo from '../Assets/vimeo.png';
-// import Copyright from '../Assets/copyright.png';
+import footimage from '../Assets/Footimage.png'
+
+// import Footimage from '../../Assets/Footimage.png';
+import facebook from '../Assets/facebook.png';
+import twitter from '../Assets/twitter.png';
+import instagram from '../Assets/instagram.png';
+import linkedIn from '../Assets/linkedin.png';
+import youtube from '../Assets/youtube.png';
+import vimeo from '../Assets/vimeo.png';
+import Copyright from '../Assets/copyright.png';
 
 const Footer = () => {
     return(
@@ -24,19 +26,19 @@ const Footer = () => {
 
                 <a className="Foottxt1" href="#contactus">Get in touch</a>
 
-                <img src={Footimage} className="footImage" alt="Footimage" />
+                <img src={footimage} className="footImage" alt="otimage" />
 
                 <p className="Foottxt2">Learnable is proud to be a collaborative effort of all the arms of our product team</p>
 
                 <a className="Foottxt3" href="#headtodev">Head to DevStudio</a>
 
                 <div className="socialIcons">
-                    <img src={Twitter} className="twitter" alt="twitter" />
-                    <img src={Facebook} className="facebook" alt="facebook" />
-                    <img src={LinkedIn} className="linkedin" alt="linkedin" />
-                    <img src={Instagram} className="instagram" alt="instagram" />
-                    <img src={Youtube} className="youtube" alt="youtube" />
-                    <img src={Vimeo} className="vimeo" alt="vimeo" />
+                    <img src={twitter} className="twitter" alt="twitter" />
+                    <img src={facebook} className="facebook" alt="facebook" />
+                    <img src={linkedIn} className="linkedin" alt="linkedin" />
+                    <img src={instagram} className="instagram" alt="instagram" />
+                    <img src={youtube} className="youtube" alt="youtube" />
+                    <img src={vimeo} className="vimeo" alt="vimeo" />
                 </div>
                 
                 <img src={Copyright} className="copyright" alt="copyright" />

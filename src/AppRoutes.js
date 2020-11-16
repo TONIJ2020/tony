@@ -1,6 +1,7 @@
 import React from 'react';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import Layouts from './Components/Layouts';
-
+import LandingPage from './Components/LandingPage';
 import Home from './Pages/Home';
 import SoftwareDevs from './Pages/SoftwareDevs';
 import Journal from './Pages/Journal';
@@ -13,9 +14,9 @@ const AppRoute = ({ Component, path, exact, ...rest }) => {
     return (
         <Route exact={exact} path={path} {...rest} render={(props) => {
             return (
-                <Layout>
+                <Layouts>
                     <Component {...rest} {...props} />
-                </Layout>
+                </Layouts>
             )
         }} />
     )
@@ -24,13 +25,19 @@ const AppRoute = ({ Component, path, exact, ...rest }) => {
 const AppRouter = () => {
     return (
         <>
-            <Router>
+            <BrowserRouter>
                 <Switch>
-                    <Route path="/" component={LandingPage} exact />
-                    <AppRoute path="/home" Component={Home} exact />
-                </Switch>
-            </Router>
+                    <Route exact path="/" component={LandingPage} exact />
+                    <AppRoute exact path="/home" Component={Home}  />
+                    <AppRoute path="/learnable" Component={Home} />
+                    <AppRoute path="/developers" Component={SoftwareDevs} />
+                    <AppRoute path="/designers" Component={ProductDesigner} />
+                    <AppRoute path="/apply" Component={ApplyYourKnow} />
+                    <AppRoute path="/journal" Component={Journal} />
+                    <AppRoute path="/faq" Component={Faq} />
+              </Switch>
+            </BrowserRouter>
         </>
     )
 }
-
+export default AppRouter;
