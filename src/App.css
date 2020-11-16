@@ -1336,6 +1336,7 @@ body {
   font: normal normal 15px/24px Nunito;
   letter-spacing: 0.25px;
   color: #17255A;
+  text-decoration-line: none;
 }
 
 /* Mobile Styles */
@@ -7596,7 +7597,7 @@ h6 {
   position: absolute;
   left: 41.04%;
   right: 58.06%;
-  top: 80%;
+  top: 80.8%;
   bottom: 17.7%;
 }
 
