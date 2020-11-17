@@ -14,7 +14,7 @@ import Copyright from '../Assets/copyright.png';
 const Footer = () => {
     return(
         <footer>
-            <div className="product-designers-mainFoot">
+            <div className="mainFoot">
                 <ul className="mainFootUl">
                     <li><a id="aa1" href="#build">Build Software</a></li>
                     <li><a id="aa2" href="#design">Design Different</a></li>

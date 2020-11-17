@@ -4,16 +4,16 @@ import styled from 'styled-components';
 import NavMenu from './NavMenu';
 
 const Toggler = styled.div`
-    @media only screen and (max-width:375px) {
+    @media only screen and (min-width:320px) and (max-width:425px) {
         width: 2rem;
         height: 2rem;
         position: fixed;
         top: 15px;
-        right: 15px;
+        left: 78%;
         display: flex;
         justify-content: space-around;
         flex-flow: column nowrap;
-        z-index: 20;
+        z-index: 4;
 
         div {
             width: 2rem;

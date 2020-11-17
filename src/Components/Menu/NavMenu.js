@@ -6,7 +6,7 @@ import './NavBar.css';
 
 const Ul = styled.div`
     z-index: 2;
-    @media only screen and (max-width:375px) {
+    @media only screen and (min-width:320px) and (max-width:425px) {
         flex-flow: column nowrap;
         background-color: #fff;
         position: fixed;
