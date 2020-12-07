@@ -8,7 +8,6 @@ import Journal from './Pages/Journal';
 import Faq from './Pages/Faq';
 import ProductDesigner from './Pages/ProductDesigner';
 import ApplyYourKnow from './Pages/ApplyYourKnow';
-// import MainNav from './Components/Menu/MainNav';
 
 const AppRoute = ({ Component, path, exact, ...rest }) => {
     return (

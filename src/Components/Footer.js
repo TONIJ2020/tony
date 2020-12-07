@@ -2,7 +2,7 @@ import React from 'react';
 
 import footimage from '../Assets/Footimage.png'
 
-// import Footimage from '../../Assets/Footimage.png';
+import '../Components/Footer.css';
 import facebook from '../Assets/facebook.png';
 import twitter from '../Assets/twitter.png';
 import instagram from '../Assets/instagram.png';
